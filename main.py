@@ -43,7 +43,8 @@ def money_handler(price):
     dimes = int(input("Enter number of dimes: ")) * .10
     nickels = int(input("Enter number of nickels: ")) * .05
     pennies = int(input("Enter number of pennies: ")) * .01
-    entered = quarters + dimes + nickels + pennies
+    deposited = quarters + dimes + nickels + pennies
+    print(f"You have deposited {deposited}. That is not enough. ")
 
 
 init()
